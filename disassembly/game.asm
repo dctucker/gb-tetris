@@ -1,4 +1,4 @@
-; Disassembly of "Tetris (Japan) (En).gb"
+; Disassembly of "tetris.gb"
 ; This file was created with:
 ; mgbdis v1.5 - Game Boy ROM disassembler by Matt Currie and contributors.
 ; https://github.com/mattcurrie/mgbdis
