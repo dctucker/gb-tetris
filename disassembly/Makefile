@@ -9,7 +9,7 @@ all: game.gb
 	rgbgfx -d 1 -o $@ $<
 
 game.o: game.asm bank_*.asm $(IMAGE_DEPS)
-	rgbasm  -o game.o game.asm
+	rgbasm -h -L -o game.o game.asm
 
 game.gb: game.o
 	rgblink -n game.sym -m game.map -o $@ $<
